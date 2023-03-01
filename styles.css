@@ -3,7 +3,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f4f5f7;
   color: #344563;
   font-family: 'Poppins', sans-serif;
 }
@@ -26,19 +26,11 @@ p { color: #344563; }
   color: #6070ff;
 }
 
+.gap-10 { gap: 120px; }
+
 .nav-link {
   color: #344563;
   font-weight: 500;
-}
-
-.btn-template-light {
-  color: #6070ff;
-  background-color: transparent;
-}
-
-.btn-template-bold {
-  background-color: #6070ff;
-  color: #fff;
 }
 
 .icon {
@@ -73,45 +65,70 @@ section#headline {
 
 section#headline .container {
   min-height: 90vh;
-  max-width: 600px;
+  max-width: 768px;
   width: 70%;
   margin: 0 auto;
 }
 
 section#headline h3 { color: #7f8cff; }
 
-li{ list-style: none; }
+li { list-style: none; }
 
-.properties{
+.properties {
   padding-left: 0;
-
 }
 
-.properties img{
+.properties img {
   margin-right: 0.6rem;
 }
 
-.stack{
+.stack {
   padding-left: 0;
+  margin-bottom: 2.5rem;
 }
 
-.stack li{
+.stack li {
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
   border-radius: 8px;
 }
 
-.btn-template-light{
-  color: #396df2 !important; 
+.btn-template-light {
+  color: #396df2 !important;
   border-color: #396df2 !important;
 }
 
-.btn-template-light:hover{
+.btn-template-light:hover {
   background-color: #396df2 !important;
   color: #fff !important;
 }
 
-.card-body{
-  padding: 16px;
+.card-title { font-size: 40px; }
+
+section#cards {
+  padding: 150px 0;
+}
+
+section#cards .col .card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.card p { margin: 1.5rem 0; }
+
+.card .company {
+  font-weight: 500;
+  font-size: 18px;
+  color: #344563;
+}
+
+.card .tech,
+.card .exp {
+  color: #6b778c;
 }
