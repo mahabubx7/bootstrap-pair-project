@@ -4,8 +4,14 @@ html { scroll-behavior: smooth; }
 
 body {
   background-color: #eee;
-  color: #333;
+  color: #344563;
 }
+
+.logo {
+  color: #6070ff;
+}
+
+.nav-link { color: #344563; }
 
 .btn-template-light {
   color: #6070ff;
