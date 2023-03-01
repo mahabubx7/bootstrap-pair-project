@@ -181,3 +181,9 @@ form textarea {
 form textarea { min-height: 200px; }
 
 form .button .btn-template-light { background-color: #fff; }
+
+.lang-list img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
