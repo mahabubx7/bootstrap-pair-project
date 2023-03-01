@@ -3,15 +3,33 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #eee;
+  background-color: #e5e5e5;
   color: #344563;
+  font-family: 'Poppins', sans-serif;
 }
+
+h1 { font-size: 3rem; }
+
+h3 { font-size: 1rem; }
+
+header { background-color: #fff; }
+
+a,
+button,
+.logo {
+  cursor: pointer;
+}
+
+p { color: #344563; }
 
 .logo {
   color: #6070ff;
 }
 
-.nav-link { color: #344563; }
+.nav-link {
+  color: #344563;
+  font-weight: 500;
+}
 
 .btn-template-light {
   color: #6070ff;
@@ -22,3 +40,42 @@ body {
   background-color: #6070ff;
   color: #fff;
 }
+
+.icon {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.icon-tw { background-image: url('./images/twitter.svg'); }
+
+.icon-ln { background-image: url('./images/Linkedin-icon.svg'); }
+
+.icon-md { background-image: url('./images/medium.svg'); }
+
+.icon-gh { background-image: url('./images/github.svg'); }
+
+.icon-an { background-image: url('./images/angellist.svg'); }
+
+section#headline {
+  background-color: #fff;
+  background-image: url('./images/Header-background@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 200px;
+}
+
+section#headline .container {
+  min-height: 90vh;
+  max-width: 600px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#headline h3 { color: #7f8cff; }
