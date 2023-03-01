@@ -7,6 +7,12 @@ body {
   color: #333;
 }
 
-.btn-template {
+.btn-template-light {
   color: #6070ff;
+  background-color: transparent;
+}
+
+.btn-template-bold {
+  background-color: #6070ff;
+  color: #fff;
 }
