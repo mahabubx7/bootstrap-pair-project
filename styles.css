@@ -187,3 +187,35 @@ form .button .btn-template-light { background-color: #fff; }
   height: 80px;
   object-fit: cover;
 }
+
+
+@media screen and (max-width: 768px) {
+  .d-sm-none { display: none; }
+
+  h1 { font-size: 2rem; }
+
+  h2 { font-size: 1.5rem; }
+
+  .properties li { font-size: 12px; }
+
+  .properties img { margin-right: 0.3rem; }
+
+  p { font-size: 14px; }
+
+  .w-35 { width: 70%; }
+
+  .d-sm-flex { display: flex; }
+
+  .flex-sm-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact .col-5,
+  #contact .col-sm-12
+   {
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
