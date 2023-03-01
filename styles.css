@@ -188,8 +188,8 @@ form .button .btn-template-light { background-color: #fff; }
   object-fit: cover;
 }
 
-
 @media screen and (max-width: 768px) {
+
   .d-sm-none { display: none; }
 
   h1 { font-size: 2rem; }
@@ -212,8 +212,7 @@ form .button .btn-template-light { background-color: #fff; }
   }
 
   #contact .col-5,
-  #contact .col-sm-12
-   {
+  #contact .col-sm-12 {
     justify-content: flex-start;
     width: 80%;
     margin: 0 auto;
