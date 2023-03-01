@@ -79,3 +79,39 @@ section#headline .container {
 }
 
 section#headline h3 { color: #7f8cff; }
+
+li{ list-style: none; }
+
+.properties{
+  padding-left: 0;
+
+}
+
+.properties img{
+  margin-right: 0.6rem;
+}
+
+.stack{
+  padding-left: 0;
+}
+
+.stack li{
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.btn-template-light{
+  color: #396df2 !important; 
+  border-color: #396df2 !important;
+}
+
+.btn-template-light:hover{
+  background-color: #396df2 !important;
+  color: #fff !important;
+}
+
+.card-body{
+  padding: 16px;
+}
